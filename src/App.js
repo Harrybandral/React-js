@@ -5,8 +5,18 @@
 const App = () => {
   return (
     <>
-      <h1>HELLO REACT</h1>
+      <MyName />
+      <h1 className="MyClassName">HELLO REACT {3 + 4}</h1>
       <p>Harry here</p>
+      <img src="" alt="" />
+    </>
+  );
+};
+
+const MyName = () => {
+  return (
+    <>
+      <h1>JAi Mahakaal</h1>
     </>
   );
 };
@@ -18,15 +28,5 @@ const App = () => {
 //     </div>
 //   );
 // }
-
-/* How react is actually looking into it */
-
-// const App = () => {
-//   return React.createElement(
-//     "div",
-//     {},
-//     React.createElement("h1", {}, "HELLO REACT")
-//   );
-// };
 
 export default App;
