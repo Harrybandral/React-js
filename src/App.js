@@ -1,13 +1,13 @@
-import React from "react"; // most important to use react
+// import React from "react"; // most important to use react
 
 //fat arrow function is used in React
 
 const App = () => {
   return (
-    <div>
+    <>
       <h1>HELLO REACT</h1>
       <p>Harry here</p>
-    </div>
+    </>
   );
 };
 
