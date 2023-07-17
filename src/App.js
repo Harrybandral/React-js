@@ -31,10 +31,10 @@
 // export default App;
 
 import React from "react";
-import Restraunt from "./component/Basics/Restraunt";
+import Restaurant from "./component/Basics/Restaurant";
 
 const App = () => {
-  return <Restraunt />;
+  return <Restaurant />;
 };
 
 export default App;
